@@ -10,7 +10,17 @@ DATA_INGESTION_DIR_NAME:str = "data_ingestion"
 
 DATA_INGESTION_FEATURE_STORE_DIR:str = "feature_store"
 
-#DATA_DOWNLOAD_URL = "https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip"
 DATA_DOWNLOAD_URL = "https://github.com/therealabhishek/Data/raw/main/SignLanguageData.zip"
-#DATA_DOWNLOAD_URL = "https://drive.google.com/file/d/1JDzOPLShiPytne0_RO64ytSJMMu3ZtiC/view?usp=drive_link"
+
+
+"""
+Data Validation Constants
+"""
+
+DATA_VALIDATION_DIR_NAME:str = "data_validation"
+
+DATA_VALIDATION_STATUS_FILE = 'status.txt'
+
+DATA_VALIDATION_ALL_REQUIRED_FILES = ["train", "test", "data.yaml"]
+
 

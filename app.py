@@ -7,3 +7,4 @@ from signLanguage.pipeline.training_pipeline import Trainpipeline
 if __name__ == '__main__':
     obj = Trainpipeline()
     obj.run_pipeline()
+    print("Executed Successfully.")
