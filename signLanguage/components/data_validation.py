@@ -31,12 +31,12 @@ class DataValidation:
                     validation_status = False
                     os.makedirs(self.data_validation_config.data_validation_dir, exist_ok=True)
                     with open(self.data_validation_config.valid_status_file_dir, 'w') as f:
-                        f.write(f"Validation status :{validation_status}")
+                        f.write(f"Validation status: {validation_status}")
                 else:
                     validation_status = True
                     os.makedirs(self.data_validation_config.data_validation_dir, exist_ok=True)
                     with open(self.data_validation_config.valid_status_file_dir, 'w') as f:
-                        f.write(f"Validation status :{validation_status}")
+                        f.write(f"Validation status: {validation_status}")
 
             return validation_status
         except Exception as e:
@@ -50,7 +50,7 @@ class DataValidation:
         try:
             status = self.validate_if_all_files_exist()
             data_validation_artifact = DataValidationArtifacts(
-                validaion_status=status
+                validation_status=status
             )
 
             logging.info("Entered initiate_data_validation method of DataValidation class.")
