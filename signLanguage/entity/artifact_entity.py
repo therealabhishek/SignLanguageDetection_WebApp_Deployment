@@ -14,3 +14,9 @@ class DataValidationArtifacts:
 @dataclass
 class ModelTrainerArtifacts:
     trained_model_file_path: str
+
+
+@dataclass
+class ModelPusherArtifacts:
+    bucket_name: str
+    s3_model_path:str

@@ -36,5 +36,14 @@ MODEL_TRAINER_NO_EPOCHS:int = 1
 MODEL_TRAINER_BATCH_SIZE:int = 16
 
 
+"""
+Model Pusher Constants
+"""
+
+BUCKET_NAME = "signlang-detect-io-files"
+S3_MODEL_NAME = "best.pt"
+
+
+
 
 
