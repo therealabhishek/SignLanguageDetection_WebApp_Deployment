@@ -37,7 +37,7 @@ In the above image, we can see that 'Yes' has been detected with a confidence of
   The annotated images have been segregated as train and test data, zipped and then uploaded to github.
 
 - Data Ingestion
-  ![Ingestion]()
+  ![Ingestion](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/Data%20Ingetions.png)
 
 In the data ingestion stage, we have downloaded our data from github as a zipfile.
 
@@ -46,7 +46,7 @@ The downloaded will be stored under the 'data_ingestion' folder which is under t
 The zipfile will be unzipped and the train and test data will be stored in 'feature_store' folder under 'data_ingestion' folder.
 
 - Data Validation
-  ![Validation]()
+  ![Validation](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/Data%20validation.png)
 
 We have unzipped the data file and stored it under 'feature_store' folder.
 
@@ -55,18 +55,18 @@ But, before proceeding further we shall check if 'train', 'test' and 'data.yaml'
 If they are present, we shall return a validation status as 'True' if not 'False'.
 
 - Model Training
-  ![Training]()
+  ![Training](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/Model%20trainer.png)
 
 In model training, the model will take various inputs, such as model version, number of epochs, batch size.
 
 The model will be trained and the best model will be saved as 'best.pt' under the 'model_trainer' folder which is under the 'artifacts' folder.
 
 - Model Pusher
-  ![Pushing]()
+  ![Pushing](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/Model%20Pusher.png)
 
 In model pusher, the model that we have stored 'best.pt' under the 'model_trainer' folder, will be pushed to the AWS S3 bucket.
 
 - Model Deployment
-  ![Deploy]()
+  ![Deploy](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/deployment.jpeg)
 
 
