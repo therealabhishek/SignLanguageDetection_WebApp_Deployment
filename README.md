@@ -69,4 +69,19 @@ In model pusher, the model that we have stored 'best.pt' under the 'model_traine
 - Model Deployment
   ![Deploy](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/deployment.jpeg)
 
+  ![DeployedApp]()
+
+
+### TO RUN THE APP LOCALLY
+
+- Clone the repository.
+
+- Install the requirements using "pip install -r requirements.txt".
+
+- Run "python app.py".
+
+- Upload the image using the "Upload" button and click "Predict" to get the prediction.
+
+
+
 
