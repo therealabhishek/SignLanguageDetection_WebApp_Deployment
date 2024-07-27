@@ -69,7 +69,7 @@ In model pusher, the model that we have stored 'best.pt' under the 'model_traine
 - Model Deployment
   ![Deploy](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/deployment.jpeg)
 
-  ![githubcicd]()
+  ![githubcicd](https://github.com/therealabhishek/SignLanguageDetection_WebApp_Deployment/blob/main/assets/githubactionscicd.PNG)
 
 
 ### TO RUN THE APP LOCALLY
